@@ -5,11 +5,11 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
-        font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -69,7 +69,7 @@ nav {
   font-weight: 500;
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
-            background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .intro-text p {
@@ -97,10 +97,10 @@ nav {
   width: 150px;
   height: 50px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   color: white;
-  margin: 30px 0px 0px 30px;
+  margin: 0px 0px 0px 30px;
 }
 
 .cover {
@@ -108,6 +108,7 @@ nav {
   display: flex;
   justify-content: center;
   height: 60vh;
+  margin: 30px 0px 0px 0px;
 }
 .cover img {
   height: 100%;
@@ -190,7 +191,6 @@ nav {
   .big-circle {
     opacity: 0.2;
   }
-  @media screen and (max-width:360px) {
-      
+  @media screen and (max-width: 360px) {
   }
 }
